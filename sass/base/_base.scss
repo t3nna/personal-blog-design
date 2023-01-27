@@ -1,0 +1,9 @@
+@use 'typo';
+@use '../abstracts/variables';
+
+body{
+  font-family: typo.$ff-primary;
+  background-color: variables.$clr-primary-light-500;
+  color: variables.$clr-primary-dark-500;
+}
+

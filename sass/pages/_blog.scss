@@ -1,0 +1,30 @@
+@use '../base/typo';
+@use '../abstracts/variables';
+
+
+.blog-header{
+  text-align: center;
+}
+.blog-section{
+  h2{
+    text-align: center;
+  }
+  p{
+    margin-inline:auto;
+    max-width: 60ch;
+  }
+}
+.blog-recommendation{
+  margin-inline:auto;
+  max-width: 60ch;
+  //h2{
+  // text-align: center;
+  //}
+}
+
+.project-team {
+  display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+  gap: 1rem;
+}
